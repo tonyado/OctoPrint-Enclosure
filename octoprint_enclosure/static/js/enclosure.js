@@ -52,7 +52,7 @@ $(function() {
             }
             if (data.hasOwnProperty("enclosureHumidity")) {
                 self.enclosureHumidity(data.enclosureHumidity);
-                self.navbarHum(_.sprintf("Hum: %.1f%%", data.enclosureHumidity));
+                self.navbarHum(_.sprintf("Hum: %.1f", data.enclosureHumidity));
             }
 
             if (data.hasOwnProperty("enclosureSetTemp")){
